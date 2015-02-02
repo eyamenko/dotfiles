@@ -1,0 +1,13 @@
+[user]
+	name = Eugene Yamenko
+	email = yamenko@me.com
+[color]
+	ui = true
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/eugene/.gitignore
+[push]
+	default = matching
+[alias]
+	co = checkout
