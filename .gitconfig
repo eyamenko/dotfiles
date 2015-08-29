@@ -6,7 +6,7 @@
 [credential]
 	helper = osxkeychain
 [core]
-	excludesfile = /Users/eugene/.gitignore
+	excludesfile = ~/.gitignore
 [push]
 	default = matching
 [alias]
