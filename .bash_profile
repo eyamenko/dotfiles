@@ -21,6 +21,3 @@ alias hidehidden='defaults write com.apple.finder AppleShowAllFiles FALSE && kil
 alias periodic='sudo periodic daily weekly monthly'
 alias e=$EDITOR
 alias brw='brew update; brew upgrade --all; brew prune; brew cleanup;'
-
-# dnvm
-[ -s ~/.dnx/dnvm/dnvm.sh ] && . ~/.dnx/dnvm/dnvm.sh
