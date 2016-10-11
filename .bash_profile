@@ -20,4 +20,4 @@ alias showhidden='defaults write com.apple.finder AppleShowAllFiles TRUE && kill
 alias hidehidden='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
 alias periodic='sudo periodic daily weekly monthly'
 alias e=$EDITOR
-alias brw='brew update; brew upgrade --all; brew prune; brew cleanup;'
+alias brw='brew update; brew upgrade; brew prune; brew cleanup;'
