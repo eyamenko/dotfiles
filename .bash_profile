@@ -1,12 +1,5 @@
-# liquidprompt
-if [ -f /usr/local/share/liquidprompt ]; then
-  . /usr/local/share/liquidprompt
-fi
-
 # bash_completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 # exports
 export CLICOLOR=1
