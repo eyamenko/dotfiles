@@ -5,7 +5,6 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export EDITOR='code -w'
-export PATH=/usr/local/sbin:$PATH
 
 # aliases
 alias ls='ls -AFGhl'
