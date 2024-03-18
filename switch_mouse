@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+mouse=$(blueutil --is-connected 08:65:18:ac:da:71)
+if [[ "$mouse" = '1' ]]
+then
+  blueutil --unpair 08:65:18:ac:da:71
+else
+  blueutil --unpair 08:65:18:ac:da:71
+  sleep 1
+  blueutil --pair 08:65:18:ac:da:71
+  sleep 1
+  blueutil --connect 08:65:18:ac:da:71
+fi
