@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+keyboard=$(blueutil --is-connected 48:e1:5c:c3:dd:c0)
+if [[ "$keyboard" = '1' ]]
+then
+  blueutil --unpair 48:e1:5c:c3:dd:c0
+else
+  blueutil --unpair 48:e1:5c:c3:dd:c0
+  sleep 1
+  blueutil --pair 48:e1:5c:c3:dd:c0
+  sleep 1
+  blueutil --connect 48:e1:5c:c3:dd:c0
+fi
